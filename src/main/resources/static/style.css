@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#controls {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+#results-info {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#pagination {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#pagination button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 11px;
+  transition: background-color 0.2s ease;
+}
+
+#pagination button:disabled {
+  cursor: not-allowed;
+  color: #999;
+  background-color: #eee;
+}
+
+#pagination button.active,
+#pagination button:hover:not(:disabled) {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  cursor: default;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+#results-per-page-container {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#results-per-page {
+  margin-left: 5px;
+  padding: 3px 6px;
+  font-size: 14px;
+}
+
+#bottom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#cvelist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
